@@ -1,10 +1,6 @@
 name: Build & Deploy Vulnado App
 
-on:
-  push:
-    branches:
-      - master
-
+on: push
 jobs:
   build-deploy:
     name: Build and Deploy Vulnado App
